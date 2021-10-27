@@ -1,0 +1,17 @@
+﻿<Window x:Class="Quote.Izbrannoe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quote"
+        mc:Ignorable="d"
+        Title="Izbrannoe" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DataGrid x:Name="DGAUO" HorizontalAlignment="Left" Height="283" Margin="65,74,0,0" VerticalAlignment="Top" Width="639" FontSize="16" FontFamily="Robot" Background="#FF6C3B1F" BorderBrush="#FF9B0404"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click" Height="39" Foreground="White" Background="#FF6C3B1F" BorderBrush="{x:Null}" FontSize="20" FontFamily="Robot" FontWeight="Bold"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="Fon.jpg"/>
+        </Grid.Background>
+
+    </Grid>
+</Window>
